@@ -1,0 +1,53 @@
+.containerSlide {
+    height: 400px;
+    width: 100%;
+    position: relative;
+}
+
+.main-img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 25px;
+}
+
+.leftArrow {
+    position: absolute;
+    top: 40%;
+    left: 15px;
+    height: 100px;
+}
+
+.rightArrow {
+    position: absolute;
+    top: 40%;
+    right: 15px;
+    height: 100px;
+}
+
+.containerSlide figcaption {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    color: white;
+}
+@media( max-width:786px ) {
+
+    .containerSlide {
+        height: 255px;
+    }
+
+    .leftArrow {
+        height: 24px;
+        width: 24px;
+        top: 140px;
+    }
+
+    .rightArrow {
+        height: 24px;
+        width: 24px;
+        top: 140px;
+    }
+   
+}
+

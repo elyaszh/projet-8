@@ -1,0 +1,22 @@
+.thumbnail {
+    width: 340px;
+    height: 340px;
+    position: relative;
+    border-radius: 10px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.thumbnail img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.thumbnail figcaption {
+    position: absolute;
+    bottom: 10px;
+    left: 5px;
+    color: white
+}
+

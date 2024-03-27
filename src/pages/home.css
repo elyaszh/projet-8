@@ -1,0 +1,10 @@
+.thumbnails {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+    background: #F6F6F6;
+    border-radius: 25px;
+    padding: 30px;
+}

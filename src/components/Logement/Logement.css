@@ -1,0 +1,92 @@
+.logement {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 20px;
+    
+}
+
+.description{
+    width: 100%;
+    height: 50px;
+    background-color: red;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px
+}
+
+.infos { 
+    margin-top: 15px;
+}
+
+.title {
+    color: #FF6060;
+}
+
+.location {
+    color: #FF6060;
+}
+.tags {
+    display: flex;
+    margin: 10px;
+    
+}
+.tags p {
+  color: white;
+  background-color: #FF6060;
+  border-radius: 10px;
+  margin: 0 10px 24px 0;
+  height: 25px;
+  text-align: center;
+  padding: 5px;
+  width: 115px
+
+}
+
+.host {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 5px;
+}
+
+.host-infos {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+.host h2 {
+    color: #FF6060;
+
+}
+
+.host img {
+    border-radius: 50%;
+    height: 64px;
+    width: 64px;
+}
+
+.descriptions {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+@media (max-width: 768px) {
+
+.logement {
+    grid-template-columns: 1fr;
+}
+
+    .descriptions {
+        grid-template-columns: 1fr;
+    }
+
+.host {
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+}
+}
